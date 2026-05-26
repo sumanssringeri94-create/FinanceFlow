@@ -1,0 +1,64 @@
+{
+  "expenses": [
+    {
+      "title": "Travel expenses",
+      "employee": "Lahari",
+      "amount": "50000",
+      "status": "Pending",
+      "id": "bCvVvQaveL8"
+    },
+    {
+      "title": "Accomodation",
+      "employee": "Gagana",
+      "amount": "45000",
+      "status": "Approved",
+      "id": "W1L5MoM9Bo4"
+    }
+  ],
+  "employees": [
+    {
+      "name": "Dev",
+      "department": "Fees",
+      "role": "Accountant",
+      "status": "Active",
+      "id": "oo6RYFNeueY"
+    },
+    {
+      "name": "Hari",
+      "department": "Manager",
+      "role": "Junior",
+      "status": "Active",
+      "id": "bHqt_hDDBRk"
+    }
+  ],
+  "invoices": [
+    {
+      "client": "INV-101",
+      "amount": "34000",
+      "status": "Overdue",
+      "id": "m-OIZuPbY3o"
+    },
+    {
+      "client": "INV-102",
+      "amount": "34899",
+      "status": "Paid",
+      "id": "Ccm6dwrZQkM"
+    },
+    {
+      "client": "INV-103",
+      "amount": "56000",
+      "status": "Overdue",
+      "id": "nhgC5dWo6uA"
+    }
+  ],
+  "analytics": [
+    {
+      "id": "1",
+      "totalRevenue": 1250000,
+      "totalExpenses": 480000,
+      "employees": 128,
+      "pendingApprovals": 16
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
